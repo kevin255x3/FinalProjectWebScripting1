@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My First Three.js App</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/hov3pgc.css">
+    <!-- Css Styling -->
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.tailwindcss.com"> </script>
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: "caligra-mn", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+    </style>
+
+
+<body class="min-h-full overflow-x-hidden relative">
+    <header class="border-b bg-pink-200 ">
+        <div class="container mx-auto py-5 px-4 flex justify-between items-center">
+            <a href="index.html" style="font-family:caligra-mn, sans-serif;" class="text-pink-900 flex"> Kevin Lazo </a>
+            <!-- Mobile navigation first -->
+            <nav
+                class="absolute top-0 left-0 w-full bg-pink-300 h-content -translate-y-full transition-transform duration-300 lg:relative lg:bg-opacity-0 lg:h-auto lg:w-auto lg:translate-y-0 js-menu z-20">
+                <a href="#" class="js-menu-close absolute p-2 top-0 right-0 lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 16" stroke-width="1.5"
+                        stroke="currentColor" class="w-8 h-8 text-pink-800">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </a>
+                <ul class="font-bold lg:text-2xl lg:text-pink-900 lg:flex">
+                    <a class="hover:text-pink-600" href="people.html">
+                        <!-- DIrect link to People section  -->
+                        <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> People
+                        </li>
+                    </a>
+                    <!-- Direct link to Menu section -->
+                    <a class="hover:text-pink-600" href="family.html">
+                        <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> Family
+                        </li>
+                    </a>
+                    <!-- Direct link to Team section -->
+                    <a class="hover:text-pink-600" href="idk.html">
+                        <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> Idk
+                        </li>
+                    </a>
+                    <!-- DIrect link to Contact section -->
+                    <a class="hover:text-pink-600" href="contact.html">
+                        <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> Contact
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+            <!-- Dropdown menu offscreen in large resolutions -->
+            <a href="#" class="js-menu-open lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="w-10 h-10 text-pink-800">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <!-- End of Mobile Navigation -->
+            </a>
+        </div>
+    </header>
+
+
+    <div class="typed-container">
+        <!-- Typed JS HTML target -->
+        <span id="element"></span>
+    </div>
+
+    <h1 class="text-center"> Play Me</h1>
+    <div id="idk-content-container">
+        <audio src="audio/Sunset.mp3" controls> </audio>
+    </div>
+    <p class="text-center"> Sunset by Lucki </p>
+
+
+    <footer>
+        <!-- Jquery JS -->
+        <script src="jquery-3.7.1.min.js"></script>
+        <!-- Typed JS -->
+        <script src="js/typed.js"></script>
+    </footer>
+</body>
+
+</html>

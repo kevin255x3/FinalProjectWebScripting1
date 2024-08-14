@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Rotating Cube </title>
+  <!-- Adobe Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/hov3pgc.css">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"> </script>
+  <!-- Three.JS -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.167.1/build/three.module.js",
+        "jsm/": "https://cdn.jsdelivr.net/npm/three@0.167.1/examples/jsm/"
+      }
+    }
+  </script>
+  <!-- Inline Style -->
+  <style>
+    body {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Three JS Render Display -->
+  <script type="module" src="js/index.js"></script>
+
+  <body class="min-h-full overflow-x-hidden relative">
+    <header class="border-b bg-pink-200 ">
+      <div class="container mx-auto py-5 px-4 flex justify-between items-center">
+        <a href="index.html" style="font-family:caligra-mn, sans-serif;" class="text-pink-900 flex"> Kevin Lazo </a>
+        <!-- Mobile navigation first -->
+        <nav
+          class="absolute top-0 left-0 w-full bg-pink-300 h-content -translate-y-full transition-transform duration-300 lg:relative lg:bg-opacity-0 lg:h-auto lg:w-auto lg:translate-y-0 js-menu z-20">
+          <a href="#" class="js-menu-close absolute p-2 top-0 right-0 lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 16" stroke-width="1.5"
+              stroke="currentColor" class="w-8 h-8 text-pink-800">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </a>
+          <ul class="font-bold lg:text-2xl lg:text-pink-900 lg:flex">
+            <a class="hover:text-pink-600" href="people.html">
+              <!-- DIrect link to People section  -->
+              <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> People
+              </li>
+            </a>
+            <!-- Direct link to Menu section -->
+            <a class="hover:text-pink-600" href="family.html">
+              <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> Family
+              </li>
+            </a>
+            <!-- Direct link to Team section -->
+            <a class="hover:text-pink-600" href="idk.html">
+              <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> Idk
+              </li>
+            </a>
+            <!-- DIrect link to Contact section -->
+            <a class="hover:text-pink-600" href="contact.html">
+              <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> Contact
+              </li>
+            </a>
+          </ul>
+        </nav>
+        <!-- Dropdown menu offscreen in large resolutions -->
+        <a href="#" class="js-menu-open lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+            class="w-10 h-10 text-pink-800">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+          <!-- End of Mobile Navigation -->
+        </a>
+      </div>
+    </header>
+
+    <footer>
+      <!-- J Query -->
+      <script src="https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+      <!-- Three JS JS -->
+      <script src="js/index.js"></script>
+    </footer>
+  </body>
+
+</html>

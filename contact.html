@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/hov3pgc.css">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "caligra-mn", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        p {
+            font-family: "cc-meltdown-open", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+
+        }
+    </style>
+
+<body class="min-h-full overflow-x-hidden relative">
+    <header class="border-b bg-pink-200 ">
+        <div class="container mx-auto py-5 px-4 flex justify-between items-center">
+            <a href="index.html" style="font-family:caligra-mn, sans-serif;" class="text-pink-900 flex"> Kevin Lazo </a>
+            <!-- Mobile navigation first -->
+            <nav
+                class="absolute top-0 left-0 w-full bg-pink-300 h-content -translate-y-full transition-transform duration-300 lg:relative lg:bg-opacity-0 lg:h-auto lg:w-auto lg:translate-y-0 js-menu z-20">
+                <a href="#" class="js-menu-close absolute p-2 top-0 right-0 lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 16" stroke-width="1.5"
+                        stroke="currentColor" class="w-8 h-8 text-pink-800">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </a>
+                <ul class="font-bold lg:text-2xl lg:text-pink-900 lg:flex">
+                    <a class="hover:text-pink-600" href="people.html">
+                        <!-- DIrect link to about section  -->
+                        <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> People
+                        </li>
+                    </a>
+                    <!-- Direct link to menu section -->
+                    <a class="hover:text-pink-600" href="family.html">
+                        <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> Family
+                        </li>
+                    </a>
+                    <!-- Direct link to team section -->
+                    <a class="hover:text-pink-600" href="idk.html">
+                        <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> Idk
+                        </li>
+                    </a>
+                    <!-- DIrect link to contqct section -->
+                    <a class="hover:text-pink-600" href="contact.html">
+                        <li class="py-4 px-8 border-b lg:border-0" style="font-family: caligra-mn, sans-serif;"> Contact
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+            <!-- No dropdown menu in large resolutions -->
+            <a href="#" class="js-menu-open lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                    stroke="currentColor" class="w-10 h-10 text-pink-800">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <!-- Mobile navigation done -->
+            </a>
+        </div>
+    </header>
+
+    <section id="contact">
+        <div class="flex w-full flex-col">
+            <div
+                class="flex flex-grow flex-wrap items-center justify-center text-center bg-white pb-[73px] pl-6 pr-6 pt-12 md:pl-24 md:pr-24 md:pt-[105px] lg:pl-40 lg:pr-20 lg:flex-nowrap">
+                <section
+                    class="relative z-0 flex flex-col items-center gap-y-6 self-stretch rounded-3xl bg-black py-12 px-6 text-lg tracking-[0px] text-white w-full md:w-auto lg:w-auto lg:flex-row lg:items-center lg:justify-center lg:py-32 lg:pl-40 lg:pr-20"
+                    style="font-family: cc-meltdown-open, sans-serif;">
+                    <div
+                        class="w-full flex flex-col items-center md:w-1/2  md:pr-6 lg:w-1/2 lg:items-center lg:text-center">
+                        <div class="text-4xl md:text-5xl leading-[46px] py-4 text-center text-lime-500"
+                            style="font-family: cc-meltdown-open, sans-serif;"> Contact me </div>
+                        <div
+                            class="flex flex-col items-center gap-y-3 md:flex-col md:items-center lg:items-center lg:flex-col lg:gap-y-4 lg:mt-4">
+                            <div class="flex items-center gap-x-1.5">
+                                <div class="leading-[18px] text-lime-500 "
+                                    style="font-family: cc-meltdown-open, sans-serif;">
+                                    hkevinlazo@gmail.com </div>
+                            </div>
+                            <div class="flex items-center gap-x-1.5">
+                                <div class="leading-[18px] text-lime-500"
+                                    style="font-family: cc-meltdown-open, sans-serif;"> <a
+                                        href="www.linkedin.com/in/kevin-lazo-280314285"> LinkedIn </a> </div>
+                            </div>
+                            <div class=" flex items-center gap-x-1.5">
+                                <div class="leading-[30px] text-center lg:text-left"
+                                    style="font-family: cc-meltdown-open, sans-serif;">
+                                    <p class="text-lime-500"> Vancouver, British Columbia </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="images/contact.png "
+                        class="h-auto w-full mt-4 rounded-3xl object-cover object-center md:h-[471px] md:w-[640px] lg:w-1/2 lg:ml-4 lg:mt-0" />
+                </section>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <!-- Jquery -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <!-- Made a file to open the nav menu -->
+        <script src="js/contact.js"> </script>
+    </footer>
+</body>
+
+</html>
